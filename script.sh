@@ -1,3 +1,5 @@
 #!/bin/bash
 echo "Deployment Started"
-git push origin main
+git add .
+git commit -m "Bash Deplyment"
+git push
